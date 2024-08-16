@@ -27,8 +27,16 @@ Register and download SMPL models [here](https://smplify.is.tue.mpg.de/download.
 ```
 humanModel
 -- assets
+----SMPL_NEUTRAL.pkl
 -- smpl
+---- smpl_numpy.py
 -- smpl-meta
+---- faces.npy
+---- J_regressor_body25.npy
+---- parents.npy
+---- SMPL_NEURAL.pkl
+---- smpl_uv.obj
+---- weights.npy
 -- smplx 
 ```
 
