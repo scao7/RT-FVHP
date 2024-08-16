@@ -7,16 +7,41 @@ NVIDIA GPUs are required for this project.
 
 Linux server: The implementation of the server code is tested on: 
 
-`Distributor ID:	Ubuntu
-Description:	Ubuntu 18.04.6 LTS
-Release:	18.04
-Codename:	bionic`
+```
+Distributor ID: Ubuntu
+Description: Ubuntu 18.04.6 LTS
+Release: 18.04
+Codename: bionic
+```
+Unity client is tested on windows 11
 
-- simple_romp https://github.com/Arthur151/ROMP
+- simple_romp https://github.com/Arthur151/ROMP, we modified the package and make it able to produce SMPL masks
 - simple_knn https://github.com/camenduru/simple-knn
-- diff-gaussian-rasterazation https://github.com/graphdeco-inria/diff-gaussian-rasterization
+- diff-gaussian-rasterazation https://github.com/graphdeco-inria/diff-gaussian-rasterization 
 
 
 
 ## Download SMPL Models
 Register and download SMPL models [here](https://smplify.is.tue.mpg.de/download.php). Put the downloaded models in the folder smpl_models. Only the neutral one is needed.
+
+
+## Environment setup 
+conda create -n RTFVHP python=3.8
+
+pip install Cython==3.0.10
+pip install numpy==1.24.1
+pip install opencv-python==4.9.0.80
+### install pytorch with compatable cuda, we used cuda 11.7 
+
+pip install torch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2
+
+
+### install customized simple_romp
+
+
+cd RTFVHP/submodules/ROMP/simple_romp
+python setup.py install
+<!-- bash build.sh -->
+
+## TODO
+
