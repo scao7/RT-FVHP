@@ -24,6 +24,14 @@ Unity client is tested on windows 11
 ## Download SMPL Models
 Register and download SMPL models [here](https://smplify.is.tue.mpg.de/download.php). Put the downloaded models in the folder smpl_models. Only the neutral one is needed.
 
+```
+humanModel
+-- assets
+-- smpl
+-- smpl-meta
+-- smplx 
+```
+
 
 ## Environment setup 
 conda create -n RTFVHP python=3.8
@@ -31,17 +39,21 @@ conda create -n RTFVHP python=3.8
 pip install Cython==3.0.10
 pip install numpy==1.24.1
 pip install opencv-python==4.9.0.80
+pip install tqdm
+
+pip install chumpy
+comment out the line in chumpy __init__.py : # from numpy import bool, int, float, complex, object, unicode, str, nan, inf
+
 ### install pytorch with compatable cuda, we used cuda 11.7 
 
 pip install torch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2
 
 
 ### install customized simple_romp
-
-
 cd RTFVHP/submodules/ROMP/simple_romp
 python setup.py install
 <!-- bash build.sh -->
+
 
 ## TODO
 
