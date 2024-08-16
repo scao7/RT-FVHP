@@ -11,7 +11,7 @@ Supplementary video:https://youtu.be/37sN7_GQOdo
 - [ ] release training code
 - [ ] relaase server code
 - [ ] release Unity scripts 
-
+- [ ] release executable file
 
 ## :desktop_computer: Requirements
 <!-- --- -->
