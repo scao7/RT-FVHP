@@ -1,5 +1,5 @@
 # RT-FVHP
-Real-Time Free-viewport Holographic Patient APP
+Real-Time Free-viewport Holographic Patient APP with HumanNeRF and Gaussian Splatting techniques
 
 Supplementary video:https://youtu.be/37sN7_GQOdo
 
