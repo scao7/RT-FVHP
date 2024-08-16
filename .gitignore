@@ -1,4 +1,5 @@
-RTFVHP/datasets
+RTFVHP/datasets/rawvideo
+RTFVHP/datasets/processed
 RTFVHP/humanModel
 RTFVHP/segmentationModel
 RTFVHP/submodules
