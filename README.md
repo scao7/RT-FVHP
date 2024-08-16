@@ -3,8 +3,14 @@ Real-Time Free-viewport Holographic Patient APP with HumanNeRF and Gaussian Spla
 
 Supplementary video:https://youtu.be/37sN7_GQOdo
 
-## TODO
-
+## TODO List
+## Tasks
+- [x] Uploade video processing codes
+- [ ] release testing code 
+- [ ] release trained weights 
+- [ ] release training code
+- [ ] relaase server code
+- [ ] release Unity scripts 
 
 
 ## :desktop_computer: Requirements
