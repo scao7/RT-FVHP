@@ -3,3 +3,8 @@ RTFVHP/datasets/processed
 RTFVHP/humanModel
 RTFVHP/segmentationModel
 RTFVHP/submodules
+
+# __pycache__/
+# *.pyc
+# *.pyo
+# *.pyd
