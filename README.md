@@ -3,6 +3,8 @@ Real-Time Free-viewport Holographic Patient APP with HumanNeRF and Gaussian Spla
 
 Supplementary video:https://youtu.be/37sN7_GQOdo
 
+## TODO
+
 
 
 ## :desktop_computer: Requirements
@@ -72,5 +74,3 @@ python setup.py install
 ## Real patient youtube view links
 
 https://www.youtube.com/watch?v=IV_IsstW-gA&t=5s
-## TODO
-
