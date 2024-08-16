@@ -9,7 +9,7 @@ Supplementary video:https://youtu.be/37sN7_GQOdo
 - [ ] release testing code 
 - [ ] release trained weights 
 - [ ] release training code
-- [ ] relaase server code
+- [ ] release server code
 - [ ] release Unity scripts 
 - [ ] release executable file
 
