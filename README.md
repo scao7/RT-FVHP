@@ -5,7 +5,7 @@ Supplementary video:https://youtu.be/37sN7_GQOdo
 
 ## TODO List
 ## Tasks
-- [x] Uploade video processing codes
+- [x] Upload video processing codes to estiamte 3D pose, masks, and camera parameters
 - [ ] release testing code 
 - [ ] release trained weights 
 - [ ] release training code
