@@ -13,9 +13,9 @@ import os
 import sys
 from PIL import Image
 from typing import NamedTuple
-from scene.colmap_loader import read_extrinsics_text, read_intrinsics_text, qvec2rotmat, \
+from RTFVHP.scene.colmap_loader import read_extrinsics_text, read_intrinsics_text, qvec2rotmat, \
     read_extrinsics_binary, read_intrinsics_binary, read_points3D_binary, read_points3D_text
-from utils.graphics_utils import getWorld2View2, focal2fov, fov2focal
+from RTFVHP.utils.graphics_utils import getWorld2View2, focal2fov, fov2focal
 import numpy as np
 import torch
 import json
@@ -24,13 +24,13 @@ import cv2
 import random
 from pathlib import Path
 from plyfile import PlyData, PlyElement
-from utils.sh_utils import SH2RGB
-from scene.gaussian_model import BasicPointCloud
+from RTFVHP.utils.sh_utils import SH2RGB
+from RTFVHP.scene.gaussian_model import BasicPointCloud
 from tqdm import tqdm
-from smpl.smpl_numpy import SMPL
-from smplx.body_models import SMPLX
+from RTFVHP.humanModel.smpl.smpl_numpy import SMPL
+from RTFVHP.humanModel.smplx.body_models import SMPLX
 
-from data.dna_rendering.dna_rendering_sample_code.SMCReader import SMCReader
+# from data.dna_rendering.dna_rendering_sample_code.SMCReader import SMCReader
 
 class CameraInfo(NamedTuple):
     uid: int

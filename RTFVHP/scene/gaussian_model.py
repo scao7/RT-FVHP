@@ -11,20 +11,20 @@
 
 import torch
 import numpy as np
-from utils.general_utils import inverse_sigmoid, get_expon_lr_func, build_rotation, build_scaling
+from RTFVHP.utils.general_utils import inverse_sigmoid, get_expon_lr_func, build_rotation, build_scaling
 from torch import nn
 import os
-from utils.system_utils import mkdir_p
+from RTFVHP.utils.system_utils import mkdir_p
 from plyfile import PlyData, PlyElement
-from utils.sh_utils import RGB2SH
+from RTFVHP.utils.sh_utils import RGB2SH
 from simple_knn._C import distCUDA2
-from utils.graphics_utils import BasicPointCloud
-from utils.general_utils import strip_symmetric, build_scaling_rotation
+from RTFVHP.utils.graphics_utils import BasicPointCloud
+from RTFVHP.utils.general_utils import strip_symmetric, build_scaling_rotation
 from knn_cuda import KNN
 import pickle
 import torch.nn.functional as F
-from nets.mlp_delta_body_pose import BodyPoseRefiner
-from nets.mlp_delta_weight_lbs import LBSOffsetDecoder
+from RTFVHP.nets.mlp_delta_body_pose import BodyPoseRefiner
+from RTFVHP.nets.mlp_delta_weight_lbs import LBSOffsetDecoder
 
 class GaussianModel:
 
