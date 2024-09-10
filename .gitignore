@@ -2,7 +2,7 @@ RTFVHP/datasets/rawvideo
 RTFVHP/datasets/processed
 RTFVHP/humanModel
 RTFVHP/segmentationModel
-RTFVHP/submodules
+# RTFVHP/submodules
 
 __pycache__/
 *.pyc

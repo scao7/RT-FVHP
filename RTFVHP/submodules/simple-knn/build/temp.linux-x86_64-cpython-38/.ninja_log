@@ -1,0 +1,4 @@
+# ninja log v5
+1	10343	1716260060318678236	/data/Shengting/resub_paperII/ml-hugs/submodules/simple-knn/build/temp.linux-x86_64-cpython-38/simple_knn.o	fd48c70a242e44fe
+0	22840	1716260072798420965	/data/Shengting/resub_paperII/ml-hugs/submodules/simple-knn/build/temp.linux-x86_64-cpython-38/ext.o	94b90555c9fff180
+1	39858	1716260089842070882	/data/Shengting/resub_paperII/ml-hugs/submodules/simple-knn/build/temp.linux-x86_64-cpython-38/spatial.o	839a053f08f723da
