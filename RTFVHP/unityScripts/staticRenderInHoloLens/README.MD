@@ -1,5 +1,4 @@
-# Original repo 
-
+HoloLens 2 rendering with holographic remoting from instant-ngp generated files.
 
 This is a modification of the repo https://kwea123.github.io/nerf_pl/. A shader modification that make it compatable with the HoloLens 2 device. 
 
